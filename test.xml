@@ -9,6 +9,8 @@
       <script src="//talkgadget.google.com/hangouts/api/hangout.js?v=1.0"></script>
       <link rel="stylesheet" href="<YOUR_PATH>/css/demo.css" />
 
+	  <b><h2>THIS IS NOT A GOOD DAY!!!!</h2></b>
+	  
       <h1>Hangout Demo</h1>
       <div id="container"></div>
       <button id="clickme">Click Me</button> <span id="count">0</span>
