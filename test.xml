@@ -9,68 +9,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link REL="icon" href="http://www.baruch.cuny.edu/favicon.ico">
-<style>
-/*!
- * Start Bootstrap - Half Slider HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-html, body {
-	height: 100%;
-}
-
-<<<<<<< HEAD
-/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
-.carousel {
-	height: 50%;
-}
-
-.item, .active, .carousel-inner {
-	height: 100%;
-}
-
-/* Background images are set within the HTML using inline CSS, not here */
-.fill {
-	width: 100%;
-	height: 100%;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-
-footer {
-	margin: 50px 0;
-}
-</style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet"
-	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<title>Insert title here</title>
+
 </head>
 <body>
 
 	
 	<!-- Page Content -->
 	<div class="container" style="padding: 20px;">
-		<div class="row" style="padding-bottom: 20px;">
-		
-			<center>
-				<h1></h1>
-			</center>
-			<br />
-			<center>
-				<h2></h2>
-			</center>
-		</div>
 		<div class="col-md-12">
-		<div class="well well-sm well-md well-lg">
-			<form action="SignupPage.jsp">
-				<input type="submit" class="btn btn-info pull-right"
-					name="btnSignUp" value="Sign Up"> <br />
-			</form>
 			<center>
 				<h3>Log In</h3>
 				<form class="form-horizontal" action="LoginServ" method="post"
@@ -99,98 +46,13 @@ footer {
 					<br /> <input type="submit" class="btn btn-primary"
 						name="btnLogIn" value="LogIn">
 				</form>
-				${messageLogin}
 			</center>
 			</div>
-			</div>
 		</div>
-
-
-		<!-- Footer -->
-		<footer>
-		<div class="row" style="padding: 15px;">
-			<div class="col-lg-12 ">
-				<p>SACC's mission is to help the undergraduates of Baruch
-					College succeed academically and in their chosen professions by
-					helping them throughout their college years to develop the skills
-					and knowledge necessary for future success.</p>
-				<p>&nbsp;</p>
-				&#155;&#155;&nbsp;<a target="_blank"
-					href="http://www.baruch.cuny.edu/sacc/">Baruch College -
-					Student Academic Consulting Center</a><br>&#155;&#155;&nbsp;<a
-					target="_blank" href="http://www.baruch.cuny.edu/tfcs">Tools
-					for Clear Speech</a><br>&#155;&#155;&nbsp;<a
-					target="_blank" href="https://baruch.mywconline.com/">Other Schedules</a><br>
-				<p>Copyright &copy; Baruch SACC 2015</p>
-			</div>
-		</div>
-		<!-- /.row --> </footer>
-
 	</div>
-
-
-
-
-
-
-
-	<!-- Optional: Include the jQuery library -->
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<!-- Optional: Incorporate the Bootstrap JavaScript plugins -->
-	<script
-		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>
-=======
-	  <b><h2>THIS IS NOT A GOOD DAY!!!!</h2></b>
-	  
-      <h1>Hangout Demo</h1>
-      <div id="container"></div>
-      <button id="clickme">Click Me</button> <span id="count">0</span>
 
-	  
-	 
-	 
-      <script src="<YOUR_PATH>/scripts/demo.js"></script>
-	  
-	  <html>
-	  <style type="text/css"> 
-	  <!-- 
-	  .button { 
-	  border-radius: 3px; 
-	  -moz-border-radius: 3px; 
-	  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd)); 
-	  background: -moz-linear-gradient(top, #fff, #ddd); 
-	  border: 1px solid #bbb; } 
-	  .button:active { 
-	  background: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#333)); 
-	  background: -moz-linear-gradient(bottom, #ddd, #aaa); } 
-	  --> 
-	  </style> 
-	  <body> 
-	  <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script> 
-	  <h3>Simple Hangout App</h3> <p> 
-	  <input class="button" type="button" value="Show participants!" id="showParticipants" style="visibility:hidden;" onClick="showParticipants()"/> </p> 
-	  <div id="participantsDiv"></div> <hr> <p><a href="http://developers.google.com/+/hangouts/getting-started">Read the docs</a> to learn more about developing hangouts!</a></p> 
-	  <script> 
-	  function showParticipants() { 
-	  var participants = gapi.hangout.getParticipants(); 
-	  var retVal = '<p>Participants: </p><ul>'; 
-	  for (var index in participants) { 
-	  var participant = participants[index]; 
-	  if (!participant.person) { 
-	  retVal += '<li>A participant not running this app</li>'; } 
-	  retVal += '<li>' + participant.person.displayName + '</li>'; } 
-	  retVal += '</ul>'; var div = document.getElementById('participantsDiv'); 
-	  div.innerHTML = retVal; } 
-	  function init() { // When API is ready... gapi.hangout.onApiReady.add( 
-		function(eventObj) { if (eventObj.isApiReady) { 
-		document.getElementById('showParticipants') .style.visibility = 'visible'; } }); } 
-		// Wait for gadget to load. gadgets.util.registerOnLoadHandler(init); 
-	  </script> 
-	  </body>
->>>>>>> a9d89ccb1b3d0353b0ce54274c6c1af1ab82d0de
     ]]>
   </Content>
 </Module>
